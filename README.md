@@ -11,9 +11,9 @@ This project demonstrates running the MiniMax-M2.1 model locally with aggressive
 - Hardware: 8x NVIDIA RTX 3090 GPUs
 - Setup: Running entirely on local hardware (no API calls)
 
-![MiniMax-M2.1 Running Locally - Session 1](repo-setup-locally-screenshot-1.png)
+![MiniMax-M2.1 Running Locally - Session 1](assets/repo-setup-locally-screenshot-1.png)
 
-![MiniMax-M2.1 Running Locally - Session 2](repo-setup-locally-screenshot-2.png)
+![MiniMax-M2.1 Running Locally - Session 2](assets/repo-setup-locally-screenshot-2.png)
 
 ### AI Cluster
 
@@ -24,7 +24,13 @@ This project was built and tested on a home AI cluster with local MiniMax-M2.1 i
 - **Inference**: Full local MiniMax-M2.1 model running without any API calls
 - **Quantization**: INT4-AWQ for efficient multi-GPU inference
 
-![MiniMax-M2.1 Local Inference Demo](minimax-local-inference-demo.gif)
+<div align="center">
+  <a href="https://x.com/TheAhmadOsman/status/2017320051980808695">
+    <img src="assets/minimax-local-inference-demo.gif" alt="MiniMax-M2.1 Local Inference Demo">
+  </a>
+</div>
+
+[Demo on X](https://x.com/TheAhmadOsman/status/2017320051980808695)
 
 ## Installation
 
@@ -34,6 +40,12 @@ uv venv && uv pip install pygame
 ```
 
 ## Running the Game
+
+<div align="center">
+  <a href="https://x.com/TheAhmadOsman/">
+    <img src="assets/flappy.png" alt="Flappy Bird Gameplay" width="300">
+  </a>
+</div>
 
 ```bash
 uv run python flappy.py
