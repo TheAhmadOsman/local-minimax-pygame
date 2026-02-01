@@ -24,9 +24,9 @@ This project was built and tested on a home AI cluster with local MiniMax-M2.1 i
 - **Inference**: Full local MiniMax-M2.1 model running without any API calls
 - **Quantization**: INT4-AWQ for efficient multi-GPU inference
 
-[Watch the full build + run demo](https://x.com/TheAhmadOsman/status/2017320051980808695)
-
-[![MiniMax-M2.1 Local Inference Demo](https://x.com/TheAhmadOsman/status/2017320051980808695)](https://x.com/TheAhmadOsman/status/2017320051980808695)
+<video align="center" controls width="600">
+  <source src="minimax-local-inference-demo.mp4" type="video/mp4">
+</video>
 
 ## Installation
 
