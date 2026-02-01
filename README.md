@@ -1,6 +1,19 @@
 # local-minimax-pygame
 
-A Flappy Bird clone showcasing local LLM inference capabilities with MiniMax-M2.1 on 8x RTX 3090s. Built with pygame - no external assets required.
+A Flappy Bird clone showcasing local LLM inference capabilities with **MiniMax-M2.1** (BF16/INT4-AWQ quantization) running locally on 8x RTX 3090s. Built with pygame - no external assets required.
+
+## MiniMax-M2.1 Local Inference
+
+This project demonstrates running the MiniMax-M2.1 model locally with aggressive quantization:
+
+- **Model**: MiniMax-M2.1
+- **Quantization**: BF16 and INT4-AWQ
+- **Hardware**: 8x NVIDIA RTX 3090 GPUs
+- **Setup**: Running entirely on local hardware (no API calls)
+
+![MiniMax-M2.1 Running Locally - Session 1](repo-setup-locally-screenshot-1.png)
+
+![MiniMax-M2.1 Running Locally - Session 2](repo-setup-locally-screenshot-2.png)
 
 ## Installation
 
