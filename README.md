@@ -28,6 +28,8 @@ This project was built and tested on a home AI cluster with local MiniMax-M2.1 i
   <source src="minimax-local-inference-demo.mp4" type="video/mp4">
 </video>
 
+[Demo on X](https://x.com/TheAhmadOsman/status/2017320051980808695)
+
 ## Installation
 
 ```bash
